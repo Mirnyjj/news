@@ -25,19 +25,7 @@ npm install
 
 bash
 npm run dev
-Структура проекта
-text
-/src
-|-- /components
-| |-- Button # Компонент кнопки
-| |-- Card # Карточка новости
-| |-- Form # Форма создания/редактирования
-|-- /models
-| |-- index.ts # Типы данных
-|-- /styles
-| |-- index.module.css # Стили приложения (страницы)
-|-- App.tsx # Главный компонент
-|-- main.tsx # Точка входа
+
 Используемые технологии
 React 19
 
