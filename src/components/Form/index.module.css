@@ -1,0 +1,58 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.formTitleMessage {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.inputForm {
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #aba8a8;
+}
+
+textarea {
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #aba8a8;
+  resize: none;
+}
+
+.formErrorMessage {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

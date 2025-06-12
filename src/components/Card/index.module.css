@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  opacity: 0.8;
+  width: 100%;
+  background-color: #d6dae7;
+  border-radius: 10px;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.cardTitle {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  word-break: break-word;
+  font-size: 30px;
+}
+.cardName {
+  text-shadow: 2px 2px 4px black;
+  font-weight: 700;
+  font-size: 24px;
+  word-break: break-word;
+}
+.cardInfo {
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+  word-break: break-word;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.buttons button {
+  cursor: pointer;
+}
